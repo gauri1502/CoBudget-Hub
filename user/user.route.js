@@ -31,7 +31,7 @@ router.post(
   controller.updatePassword
 );
 
-// //Get all User Email Id
-// router.get('/v1/emailList',apiAuth.validateToken, controller.emailList)
+//Get all User Email Id
+router.get("/v1/emailList", apiAuth.validateToken, controller.emailList);
 
 module.exports = router;
