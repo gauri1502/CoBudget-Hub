@@ -136,7 +136,7 @@ showHomeAlert={setShowAlert} homeAlertMessage={setAlertMessage}
             Confirm user deletion 
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Are you sure you want to delete the user account?
+            Are you sure you want to delte the user account?
           </Typography>
           <Stack mt={2} spacing={2} direction={'row'}>
           <Button startIcon={<Iconify icon='fluent:delete-dismiss-24-filled'/>} variant="outlined" color="error" sx={{ width:'100%'}}
